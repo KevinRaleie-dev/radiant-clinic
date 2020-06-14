@@ -8,8 +8,8 @@ const sgMail = require('@sendgrid/mail');
 //import * as sgMail from '@sendgrid/mail';
 
 
-const API_KEY = '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';
-const TEMP = 'd-18fe3080c02046d5a065cf97e8d7210f';
+const API_KEY = //get an api key from send grid
+const TEMP = // get a temp access key
 sgMail.setApiKey(API_KEY);
 
 
@@ -20,7 +20,7 @@ exports.welcomeEmail = functions.auth.user().onCreate(user => {
 
 const msg = {
             to: user.email,
-            from: 'kkevraleie@gmail.com',
+            from: 'example@gmail.com',
             templateId: TEMP,
             dynamic_template_data: {
                 subject: 'Welcome to the Radiant Clinic app!',
@@ -42,7 +42,7 @@ exports.genericEmail = functions.https.onCall(async (data, context) =>{
     }
     const msg = {
         to: context.auth.token.email,
-        from: 'kkevraleie@gmail.com',
+        from: 'example@mail.com',
         templateId: TEMP,
         dynamic_template_data: {
                 subject: data.subject,
