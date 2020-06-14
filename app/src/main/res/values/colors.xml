@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#141d26</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="custom">#eceff1</color>
+
+    <color name="RadiantYellow">#FBC02D</color>
+    <color name="RadiantWhite">#FFFFFF</color>
+    <color name="RadiantBlue">#2196F3</color>
+    <color name="transparent">#cccccc</color>
+
+    <color name="blackish">#606060</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightPink">#F8BBD0</color>
+    <color name="lightBlue">#B3E5FC</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="blueGrey">#607D8B</color>
+    <color name="green">#8BC34A</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="orange">#FF9800</color>
+    <color name="Red">#F44336</color>
+    <color name="teal">#009688</color>
+    <color name="appointmentBG">#eceff1</color>
+    <color name="googleRed">#db3236</color>
+    <color name="facebookBlue">#3b5998</color>
+    <color name="card_bg">#f6f6f6</color>
+    <color name="card_text">#258bd6</color>
+    <color name="context_text">#999da4</color>
+</resources>
